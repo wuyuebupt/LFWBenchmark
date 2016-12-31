@@ -9,7 +9,7 @@ coord5points = [30.2946, 65.5318, 48.0252, 33.5493, 62.7299; ...
 for i = 1:2
     image = imread(imglist{i});
     facial5points=double(reshape( singlefaces{i,2},[5,2])');
-    Tfm =  cp2tform(facial5points', coord5points', 'similarity'); %#ok<DCPTF>
+    Tfm =  cp2tform(facial5points', coord5points', 'similarity'); 
     cropImg = imtransform(image, Tfm, 'XData', [1 imgSize(2)],...
                                   'YData', [1 imgSize(1)], 'Size', imgSize);
     imshow(cropImg)
@@ -25,7 +25,7 @@ coord5points = [94.0770,  173.6142,  133.0649,   94.0770,  173.6142; ...
 for i = 1:2
     image = imread(imglist{i});
     facial5points=double(reshape( singlefaces{i,2},[5,2])');
-    Tfm =  cp2tform(facial5points', coord5points', 'similarity'); %#ok<DCPTF>
+    Tfm =  cp2tform(facial5points', coord5points', 'similarity'); 
     cropImg = imtransform(image, Tfm, 'XData', [1 imgSize(2)],...
                                   'YData', [1 imgSize(1)], 'Size', imgSize);
     imshow(cropImg)
