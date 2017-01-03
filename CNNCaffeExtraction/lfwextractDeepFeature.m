@@ -24,7 +24,7 @@ load ('../LFWFaces/lfwcenterfaces.mat');
 
 lfwfeatures=cell(0);
 
-% loop for the whole dataset instead two demo images
+% loop for the whole dataset instead of two demo images
 %  for i = 1:length(imglist)
 for i = 1:2
     disp(i);
