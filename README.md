@@ -16,7 +16,7 @@ A matlab script showed how to extract features for evaluation using [Caffe](http
 
 LFW evaluation code with PCA and cosine distance. 
 
-Two features provided 
+Results on provided features:
 
 | Name            | Accuracy    |
 | --------------- | ----------- | 
