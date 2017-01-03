@@ -10,7 +10,7 @@ LFW evaluation matlab code. Run in matlab to get the accuracy and a roc curve of
 
 ## lfwfeatures.mat
 
-LFW face features, 98.97% accuracy, extracted from provided [CenterFace] (https://github.com/ydwen/caffe-face).
+LFW face features, 98.97% accuracy, extracted from provided model [CenterFace] (https://github.com/ydwen/caffe-face).
 
 ## pair.label
 
