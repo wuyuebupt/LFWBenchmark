@@ -1,8 +1,8 @@
 # LFW ROC
 
-## lfw9955.mat
+## features/lfw_9953.mat
 
-LFW face features, 99.55% accuracy.
+LFW face features, 99.53% accuracy.
 
 ## lfw_eval.m
 

@@ -11,7 +11,7 @@ load('features/lfwfeatures.mat');
 
 % or some other features extracted by myself
 % 99.53% performance on LFW after doing a PCA on LFW 13233 faces
-% load('features/lfw9953.mat');
+% load('features/lfw_9953.mat');
 
 feature = cell2mat(lfwfeatures);
 
