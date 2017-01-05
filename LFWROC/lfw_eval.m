@@ -7,11 +7,11 @@ close all;
 
 % or the features extracted by myself 
 % model downloaded from "https://github.com/ydwen/caffe-face"
-load('lfwfeatures.mat');
+load('features/lfwfeatures.mat');
 
 % or some other features extracted by myself
-% 99.55% performance on LFW after doing a PCA on LFW 13233 faces
-% load('lfw9955.mat');
+% 99.53% performance on LFW after doing a PCA on LFW 13233 faces
+% load('features/lfw9953.mat');
 
 feature = cell2mat(lfwfeatures);
 
