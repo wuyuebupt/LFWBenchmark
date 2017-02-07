@@ -21,7 +21,7 @@ Results on provided features:
 | Name            | Accuracy    |
 | --------------- | ----------- | 
 | lfwfeatures.mat | 98.97       | 
-| lfw_9953.mat    | 99.55       | 
+| lfw_9953.mat    | 99.53       | 
 
 
 ## REF
