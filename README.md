@@ -12,6 +12,10 @@ A matlab script for face alignment given five facial points.
 
 A matlab script showed how to extract features for evaluation using [Caffe](https://github.com/BVLC/caffe).
 
+## CNN model
+[2016-02-28] A [model](https://drive.google.com/file/d/0B0W0rPKOeIBydzgzRTZ1aktrN1k/view?usp=sharing) trained on [MS-Celeb-1M](https://github.com/wuyuebupt/MSCELEB1M-GenImage) is released, which has 99.52% accuracy on LFW.
+
+
 ## LFWROC
 
 LFW evaluation code with PCA and cosine distance. 
@@ -25,5 +29,5 @@ Results on provided features:
 
 
 ## REF
-Facde alignment and caffe feature extraction codes are modified from [CenterFace] (https://github.com/ydwen/caffe-face).
+Face alignment and caffe feature extraction codes are modified from [CenterFace] (https://github.com/ydwen/caffe-face).
 
